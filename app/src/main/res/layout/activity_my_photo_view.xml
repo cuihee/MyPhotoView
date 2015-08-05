@@ -1,0 +1,30 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <Button
+                android:id="@+id/prov_page"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/text_pre"    />
+            <Button
+                android:id="@+id/next_page"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/text_next"
+                android:layout_toEndOf="@+id/prov_page"                />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/image_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:scaleType="fitCenter"
+            android:src="@drawable/c2"
+            tools:ignore="contentDescription"
+            />
+    </LinearLayout>
